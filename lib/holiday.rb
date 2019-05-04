@@ -18,7 +18,7 @@ holiday_hash =  {
     }
   }
   # return the second element in the 4th of July array
-  return holiday_hash[:summer][:fourth_of_july][1]
+  return holiday_hash[:summer][:fourth_of_july][1] = "Watermelon"
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)

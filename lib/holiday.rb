@@ -19,7 +19,7 @@ holiday_hash =  {
   }
   # return the second element in the 4th of July array
 holiday_hash.each do |key, val|
-    return holiday_hash[:summer][:fourth_of_july][1] = "Watermelon"
+    return holiday_hash[:summer][:fourth_of_july][1] = "Watermelon" || "BBQ"
   end
 end
 

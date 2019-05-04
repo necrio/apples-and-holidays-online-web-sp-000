@@ -60,6 +60,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
 
   holiday_hash[:spring][:memorial_day].each do |holi, dec|
     dec.push("Grill", "Table Cloth")
+  end
   # holiday_hash[:spring][:memorial_day] << "Grill"
 
 end

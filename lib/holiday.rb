@@ -1,7 +1,5 @@
 require 'pry'
 
-def second_supply_for_fourth_of_july(holiday_hash)
-  # given that holiday_hash looks like this:
 holiday_hash =  {
     :winter => {
       :christmas => ["Lights", "Wreath"],
@@ -17,10 +15,14 @@ holiday_hash =  {
       :memorial_day => ["BBQ"]
     }
   }
+
+def second_supply_for_fourth_of_july(holiday_hash)
+  # given that holiday_hash looks like this:
+
   # return the second element in the 4th of July array
-holiday_hash.each do |key, val|
-    return holiday_hash[:summer][:fourth_of_july][1] = "Watermelon" || "BBQ"
-  end
+
+    return holiday_hash[:summer][:fourth_of_july][1] 
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
